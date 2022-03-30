@@ -1,8 +1,3 @@
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
 * html {
@@ -84,18 +79,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-
-@media only screen and (max-width: 902px) {
-  .toplayer {
-display: grid
-}
-}
-
-@media only screen and (min-width: 1014px) {
-  .send {
-margin-left: 200px
-}
-}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
